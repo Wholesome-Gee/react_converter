@@ -1,0 +1,38 @@
+.form-container {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.devider {
+  height: 12rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.devider label {
+  width: 100%;
+  color: var(--gray);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.devider .clicked {
+  color: var(--white);
+}
+
+.devider label span {
+  margin-left: 0.5rem;
+}
+
+.devider input[type='number'] {
+  width: 3rem;
+  padding: 4px;
+}
