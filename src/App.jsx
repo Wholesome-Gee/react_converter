@@ -3,13 +3,6 @@ import './App.css'
 import Time from './component/time/Time'
 import Distance from './component/distance/Distance'
 
-function DistanceConverter() {
-  return (
-    <div>
-      <h3>거리 변환기</h3>
-    </div>
-  )
-}
 function App() {
  
   const [type, setType] = useState('category-time')
@@ -17,7 +10,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1 className='main-title'>단위 변환기</h1>
+      <h1 className='main-title'>단위 변환기!</h1>
       <ul className='categories'>
         <li onClick={onChangeCategory} className={type==='category-time' ? 'clicked' : null} id='category-time'>시간</li>
         <li onClick={onChangeCategory} className={type==='category-distance' ? 'clicked' : null} id='category-distance'>거리</li>

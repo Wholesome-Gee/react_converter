@@ -46,7 +46,7 @@
 }
 
 .time-container .checkbox input[type='radio']:checked {
-  background: url('./check.png');
+  background: url('/check.png');
   width: 18px;
   height: 18px;
   background-position: center;
